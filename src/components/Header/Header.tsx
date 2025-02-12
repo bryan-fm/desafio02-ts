@@ -1,9 +1,23 @@
+import { 
+  Center,
+  ChakraProvider,
+} from '@chakra-ui/react'
 import './Header.css'
+import { AiFillBank } from "react-icons/ai";
 
 export const Header  = () => {
   return(
-    <div className='header'>
-      Dio Bank
-    </div>
+    <ChakraProvider>
+      <Center>
+        <div className='header'>
+          <Center>
+            <AiFillBank size={50} />
+          </Center>
+          <Center>
+            Dio Bank
+          </Center>
+        </div>
+      </Center>
+    </ChakraProvider>
   )
 }

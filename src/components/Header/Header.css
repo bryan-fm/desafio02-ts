@@ -1,3 +1,9 @@
 .header {
-    background-color: orange;
+    background-color: #329da8;
+    border-start-end-radius: 50%;
+    border-end-start-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
