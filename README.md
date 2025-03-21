@@ -28,7 +28,8 @@ desenvolvido por [Nathally Souza](https://github.com/nathyts)
   - Ao clicar no botão, deve aparecer um alert com uma mensagem de boas vindas
   - Crie o teste unitário da função
 
-OBS: Infos de Login :
-https://dioreact.netlify.app/
-mock@mock.com.br 
-test
+[ ] Infos de Login :
+  - https://dioreact.netlify.app/
+  - mock@mock.com.br
+  - test
+
