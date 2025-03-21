@@ -11,7 +11,7 @@ import {
   export const Button = (props: ButtonProps) => {
     return(
       <Center marginTop={10}>
-        <CButton onClick={() => props.handler()} backgroundColor={'#c3b56e'} color="white" size='sm' width='8rem' marginTop='5px'>
+        <CButton onClick={() => props.handler()} backgroundColor={'darkorange'} color="white" fontSize={20} width='8rem' marginTop='5px'>
           {props.text}
         </CButton>
       </Center>
